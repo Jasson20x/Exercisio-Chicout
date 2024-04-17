@@ -26,7 +26,7 @@ public class App {
     }
 
     public static void main(String[] args) {
-        Pessoa pessoa = new Pessoa("João", 30);
+        Pessoa pessoa = new Pessoa("Julio", 24);
 
         try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("pessoa.dat"))) {
             out.writeObject(pessoa);
